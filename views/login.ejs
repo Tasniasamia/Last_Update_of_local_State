@@ -1,0 +1,24 @@
+<%- include("layout/header") %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/user/route/login"method="POST">
+  
+        <label>name</label>
+        <input type="text"name="username"placeholder="Enter your name"/><br/>
+        <label>password</label>
+        <input type="text"name="password"placeholder="Enter your password"/>
+<button>Login</button>
+    </form>
+
+
+    <a href='/user/route/auth/google'>Login with Google</a>
+</body>
+</html>
+<%- include("layout/footer") %>

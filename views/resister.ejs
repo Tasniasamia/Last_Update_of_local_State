@@ -1,0 +1,22 @@
+<%- include("layout/header") %>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resister</title>
+</head>
+<body>
+    <form action="/user/route/resister"method="POST">
+        <label>Name</label>
+        <input type="text"name="username"placeholder="Enter your name"/><br/>
+        <label>Email</label>
+        <input type="text"name="email"placeholder="Enter your email"/><br/>
+        <label>password</label>
+        <input type="text"name="password"placeholder="Enter your password"/>
+<button>Resister</button>
+    </form>
+    
+</body>
+</html>
+<%- include("layout/footer") %>
